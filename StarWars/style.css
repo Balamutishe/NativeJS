@@ -1,0 +1,197 @@
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans-Regular"),
+    /* url("../fonts/OpenSans-Regular.woff2") format("woff2"), */
+    url("../fonts/OpenSans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans-Bold"),
+    /* url("../fonts/OpenSans-Bold.woff2") format("woff2"), */
+    url("../fonts/OpenSans-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans-SemiBold"),
+    /* url("../fonts/OpenSans-SemiBold.woff2") format("woff2"), */
+    url("../fonts/OpenSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: local("OpenSans-Light"),
+    /* url("../fonts/OpenSans-Light.woff2") format("woff2"), */
+    url("../fonts/OpenSans-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  font-weight: 400;
+  background-image: url('img/Star-Wars-Darth-Vader-Anakin-Skywalker-1004560-wallhere.com.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "OpenSans", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.title {
+  color: #09035c;
+  margin: 0;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  max-width: 1420px;
+  margin: 0 auto;
+}
+
+.root {
+  min-height: 100vh;
+  padding: 70px;
+}
+
+.main-title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 55px;
+}
+
+.film-description {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+  color: #1b0000;
+  background-color: #ffffff8f;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.link {
+  padding: 10px 15px;
+  background-color: rgb(242, 27, 27);
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.link:hover {
+  background-color: rgba(242, 27, 27, 0.674);
+}
+
+.link-return {
+  color: #fff;
+}
+
+/* list */
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.container-lists-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-list-details {
+  width: 32%;
+}
+
+.list-film-details {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1b0000;
+  background-color: #ffffff8f;
+  margin-bottom: 40px;
+}
+
+.list-film-details-title {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+}
+
+.list-item {
+  width: 32%;
+  max-height: 600px;
+  margin-bottom: 20px;
+}
+
+/* card */
+
+.card {
+  height: 530px;
+  padding: 15px;
+  background-color: #ffffff7d;
+  border-radius: 10px;
+}
+
+.card-title {
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: #043f5e;
+}
+
+.card-img-top {
+  max-height: 400px;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border-radius: 20px;
+}
+
+.link-film-details {
+  text-align: center;
+}
